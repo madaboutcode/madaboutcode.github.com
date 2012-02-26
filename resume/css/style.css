@@ -73,13 +73,17 @@ td { vertical-align: top; }
 /* ===== Primary Styles ========================================================
    Author: Ajeesh
    ========================================================================== */
-body { margin: 0 auto; width: 750px; font-size:14px;font-family: 'Trebuchet MS';}
-h1 { font-size: 42px; font-weight: bold;margin:0; letter-spacing: -1px;}
-header { font-family: Helvetica, sans-serif; line-height: 42px; margin: 40px 0 100px; text-transform: uppercase;}
-#jobtitle { font-size: 30px; font-weight: bold; color: #666; letter-spacing: -1px; line-height: 30px}
-#main { width: 500px; float:left; padding-right: 20px}
-#quickinfo { width: 200px; float:right}
+body { margin: 0 auto; width: 750px; font-size:14px; font-family: 'Futura LT1','Trebuchet MS';}
+h1 { font-size: 2.5em; font-weight: bold;margin:0; letter-spacing: -1px;}
+header { font-family: 'Futura LT',Helvetica, sans-serif; line-height: 1.5em; margin: 40px 0 100px; text-transform: uppercase;}
+#jobtitle { font-size: 1.6em; font-weight: bold; color: #666; letter-spacing: -1px; line-height: 1.3em;}
+#main { width: 66%; float:left; padding-right: 20px;}
+#quickinfo { width: 30%; float:right;}
 h2 { font-size:16px; font-weight: bold; }
+
+dl { width: 100% ;}
+dd { float: left; margin: 0; width: 75%}
+dt { float:left; clear:left;color: #6a6a6a; width: 25%;}
 
 
 
@@ -88,6 +92,9 @@ h2 { font-size:16px; font-weight: bold; }
 /* =============================================================================
    Media Queries
    ========================================================================== */
+@media print {
+  body { width: 100%; }
+}
 
 @media only screen and (min-width: 35em) {
 	/* Style adjustments for viewports that meet the condition */
