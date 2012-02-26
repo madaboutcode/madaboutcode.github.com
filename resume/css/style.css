@@ -73,13 +73,13 @@ td { vertical-align: top; }
 /* ===== Primary Styles ========================================================
    Author: Ajeesh
    ========================================================================== */
-body { margin: 0 auto; width: 750px;}
+body { margin: 0 auto; width: 750px; font-size:14px;font-family: 'Trebuchet MS';}
 h1 { font-size: 42px; font-weight: bold;margin:0; letter-spacing: -1px;}
 header { font-family: Helvetica, sans-serif; line-height: 42px; margin: 40px 0 100px; text-transform: uppercase;}
 #jobtitle { font-size: 30px; font-weight: bold; color: #666; letter-spacing: -1px; line-height: 30px}
-#main { width: 480px; border-right: 1px solid gray;}
-#quickinfo { width: 200px; }
-
+#main { width: 500px; float:left; padding-right: 20px}
+#quickinfo { width: 200px; float:right}
+h2 { font-size:16px; font-weight: bold; }
 
 
 
