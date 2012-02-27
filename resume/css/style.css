@@ -73,19 +73,28 @@ td { vertical-align: top; }
 /* ===== Primary Styles ========================================================
    Author: Ajeesh
    ========================================================================== */
-body { margin: 0 auto; width: 750px; font-size:14px; font-family: 'Futura LT1','Trebuchet MS';}
-h1 { font-size: 2.5em; font-weight: bold;margin:0; letter-spacing: -1px;}
-header { font-family: 'Futura Bold BT1',Helvetica, sans-serif; line-height: 1.5em; margin: 40px 0 100px; text-transform: uppercase;}
-#jobtitle { font-size: 1.6em; font-weight: bold; color: #666; letter-spacing: -1px; line-height: 1.3em;}
-#main { width: 66%; float:left; padding-right: 20px;}
-#quickinfo { width: 30%; float:right;}
+body { margin: 0 auto; width: 900px; font-size:14px; font-family: 'Futura LT1','Trebuchet MS'; }
+h1 { font-size: 2.5em; font-weight: bold;margin:0; letter-spacing: -1px; }
+header { font-family: 'Futura Bold BT1',Helvetica, sans-serif; line-height: 1.5em; margin: 40px 0 100px; text-transform: uppercase; }
+#jobtitle { font-size: 1.6em; font-weight: bold; color: #666; letter-spacing: -1px; line-height: 1.3em; }
+#main { width: 66%; float:left; padding-right: 20px; border-right: 1px solid #ddd; }
+#quickinfo { width: 30%; float:right; }
 h2 { font-size:16px; font-weight: bold; }
+h3 { font-size:14px; font-weight: bold; margin:0 } 
+#main section, #quickinfo section { top: -40px; position:relative }
 
-dl { width: 100% ;}
-dd { float: left; margin: 0; width: 75%}
-dt { float:left; clear:left;color: #6a6a6a; width: 25%;}
+dl { width: 100% ; }
+dd { float: left; margin: 0; width: 75% }
+dt { float:left; clear:left;color: #6a6a6a; width: 25%; }
 
+#main dt { text-align: right; padding-right: 3%; width: 22%; } 
 
+ul.subtext { list-style: none; padding:0; font-style:italic;height:20px; margin: 0; font-size: 13px}
+ul.subtext li { float: left; margin-right: 30px; }
+
+#main section p { clear: left; margin: 8px 0;}
+
+section { overflow: auto; margin-bottom:10px;}
 
 
 
