@@ -75,7 +75,7 @@ td { vertical-align: top; }
    ========================================================================== */
 body { margin: 0 auto; width: 750px; font-size:14px; font-family: 'Futura LT1','Trebuchet MS';}
 h1 { font-size: 2.5em; font-weight: bold;margin:0; letter-spacing: -1px;}
-header { font-family: 'Futura LT',Helvetica, sans-serif; line-height: 1.5em; margin: 40px 0 100px; text-transform: uppercase;}
+header { font-family: 'Futura Bold BT1',Helvetica, sans-serif; line-height: 1.5em; margin: 40px 0 100px; text-transform: uppercase;}
 #jobtitle { font-size: 1.6em; font-weight: bold; color: #666; letter-spacing: -1px; line-height: 1.3em;}
 #main { width: 66%; float:left; padding-right: 20px;}
 #quickinfo { width: 30%; float:right;}
