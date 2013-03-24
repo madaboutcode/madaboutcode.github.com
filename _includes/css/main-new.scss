@@ -244,9 +244,30 @@ blockquote
     float: left;
     a { border: none; }
 }
-#copyright { float: right; }
+#copyright
+{
+    float: right;
+}
+
+#server-info
+{
+    font-family: $sans-font;
+    color: #dfdfdf;
+    font-size: 0.618em;
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
 
 .center-content { text-align: center; }
+
+#review-tools
+{
+    position: fixed;
+    right: 0;
+    bottom: 1em;
+    padding: 3px;
+}
 
 /* ==========================================================================
    Media Queries

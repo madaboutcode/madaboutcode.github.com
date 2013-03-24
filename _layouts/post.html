@@ -3,6 +3,13 @@ layout: default
 templatename: article-page
 ---
 <div id="page-content" class="clearfix">
+  {% if page.forreview %}
+  <div id="review-tools">
+    <a href="https://github.com/madaboutcode/madaboutcode.github.com/blob/master/_posts/{{page.filename}}" target="_blank">
+      Open post in github
+    </a>
+  </div>
+  {% endif %}
   <article id="article-body">
     <header>
       <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
