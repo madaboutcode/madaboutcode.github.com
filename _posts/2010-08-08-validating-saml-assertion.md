@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Validating a SAML assertion in .net
+title: Validating a SAML assertion in .NET
 category: SAML
 ---
 
