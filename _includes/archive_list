@@ -1,0 +1,16 @@
+<section id="achives-list">
+  <h2>Archives</h2>
+  <ul>
+  {% assign current_month_year = "" %}
+  {% for post in site.posts %}
+    {% capture this_month_year %}{{ post.date | date: "%B %Y" }}{% endcapture %}
+    {% capture this_month_year_id %}{{ post.date | date: "%B-%Y" }}{% endcapture %}
+
+    {% if current_month_year != this_month_year %}
+      <li><a href="/archives.html#{{this_month_year_id}}">{{ this_month_year }}</a></li>
+      {% assign current_month_year = this_month_year %}
+    {% endif %}
+  {% endfor %}
+  </ul>
+
+</section>

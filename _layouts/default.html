@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{% if page.title %} {{ page.title }} - {% endif %} Mad about code</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <meta property="og:site_name" content="Mad about code"/>
+  {% capture title %}{{ page.title | replace: '"':'&quot;' }}{% endcapture %}
+  {% if page.title %}<meta property="og:title" content="{{ title }}"/>{% endif %}
+  {% if page.layout == 'post' %}<meta property="og:type" content="article"/>
+  {% else %}<meta property="og:type" content="blog"/>{% endif %}
+  {% if page.url %}<meta property="og:url" content="http://madaboutcode.com{{ page.url }}"/>{% endif %}
+  <link rel="stylesheet" href="/css/all.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+  <link href="/atom.xml" rel="alternate" title="Atom feed" type="application/atom+xml" />
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-12468390-1']);
+    _gaq.push(['_setSiteSpeedSampleRate', 90]);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+<body {% if page.templatename %} id="{{ page.templatename }}" {% endif %}>
+  <header id="page-header" class="clearfix">
+    <h1 id="logo">mad about code</h1>
+    <h3 id="subtext">mad<em>(adj)</em>: wildly confused or excited</h3>
+    <nav>
+      <ul id="primary-nav">
+        <li><a href="/blog.html">blog</a></li>
+        <li><a href="https://github.com/madaboutcode">github</a></li>
+        <li><a href="https://twitter.com/ajeeshm">twitter</a></li>
+      </ul>
+    </nav>
+  </header>
+  {{ content }}
+  <footer id="page-footer">
+    <section id="share">
+      <a class="icon twitter" title="Follow me on twitter" href="https://twitter.com/ajeeshm">"</a>
+      <a class="icon feed" title="Subscribe to this blog" href="/atom.xml" target="_blank">$</a>
+    </section>
+    <section id="copyright">&copy; Ajeesh 2013</section>
+  </footer>
+  <script type="text/javascript" src="/js/all.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+
+<section id="categories-list">
+  <h2>Categories</h2>
+  <ul>
+    {% for category in site.categories %}
+    <li><a href="/categories.html#{{ category[0] | replace:' ','-'}}">{{ category[0] }}</a></li>
+    {% endfor %}
+  </ul>
+</section>

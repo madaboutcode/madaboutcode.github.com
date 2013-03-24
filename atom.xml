@@ -1,0 +1,28 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>Mad about code</title>
+ <link href="http://madaboutcode.com/atom.xml" rel="self"/>
+ <link href="http://madaboutcode.com/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://madaboutcode.com/</id>
+ <author>
+   <name>Mad about code - Personal blog of Ajeesh Mohan</name>
+   <email>team@pebblekites.com</email>
+ </author>
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://madaboutcode.com{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://madaboutcode.com{{ post.id }}</id>
+   <content type="html">{{ post.content | replace:"='/","='http://madaboutcode.com/" | replace:'="/','="http://madaboutcode.com/' | xml_escape }}</content>
+   <author>
+    <name>Ajeesh Mohan</name>
+    <email>madaboutcode@gmail.com</email>
+  </author>
+ </entry>
+ {% endfor %}
+</feed>

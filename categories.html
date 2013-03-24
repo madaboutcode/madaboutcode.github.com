@@ -1,0 +1,15 @@
+---
+title: Categories
+layout: default
+---
+<div id="page-content" class="clearfix">
+  <h1>Categories</h1>
+  {% for category in site.categories %}
+    <ul class="arc-per-month-list">
+      <li><h2 id="{{ category[0] |replace:' ','-' }}">{{ category[0] }}</h2></li>
+      {% for post in category[1] %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</div>

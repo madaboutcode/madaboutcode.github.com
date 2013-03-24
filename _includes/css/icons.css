@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'pb-font';
+	src:url('/css/fonts/pb-font.eot');
+	src:url('/css/fonts/pb-font.eot?#iefix') format('embedded-opentype'),
+		url('/css/fonts/pb-font.svg#pb-font') format('svg'),
+		url('/css/fonts/pb-font.woff') format('woff'),
+		url('/css/fonts/pb-font.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon {
+  font-family: 'pb-font';
+	font-style: normal;
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.icon.facebook                      { color: #a1b6d5; }
+.icon.twitter 											{ color: #82cbe4; }
+.icon.pinterest											{ color: #e58f93; }
+.icon.mail    											{ color: #999; }
+.icon.feed    											{ color: #f5b991; }
+
+.icon.facebook:hover                { color: #436eac !important; }
+.icon.twitter:hover 								{ color: #0598c9 !important; }
+.icon.pinterest:hover								{ color: #cb2027 !important; }
+.icon.mail:hover    								{ color: #343434 !important; }
+.icon.feed:hover    								{ color: #ec7423 !important; }

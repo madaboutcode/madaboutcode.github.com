@@ -1,0 +1,9 @@
+<section id="share">
+  <a class="icon facebook popup" title="Share this page on Facebook"
+          href="https://www.facebook.com/sharer/sharer.php?u=http://blog.pebblekites.com{{ page.url }}" target="_blank">#</a>
+  <!--<a class="icon pinterest" title="Pin this page on Pinterest" href="#pinterest">!</a> -->
+  <a class="icon twitter popup" title="Share this page on twitter"
+    href="https://twitter.com/share?url=http://blog.pebblekites.com{{ page.url }}&amp;text=Interesting read - {{ page.title }}">"</a>
+  <a class="icon feed" title="Subscribe to this blog" href="http://feeds.feedburner.com/PebblekitesBlog" target="_blank">$</a>
+  <a class="icon mail" title="Subscribe to this blog using email" href="http://feedburner.google.com/fb/a/mailverify?uri=PebblekitesBlog&amp;loc=en_US">%</a>
+</section>
