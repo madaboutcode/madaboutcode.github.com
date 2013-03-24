@@ -4,7 +4,7 @@ title: "Reverse engineering to fix a bug - Part II"
 category: Reverse Engineering
 ---
 
-[  This is the continuation of an [earlier post][1] ]
+\[  This is the continuation of an [earlier post][1] \]
 
 Sorry about the delay in posting this second part. So many things!
 
@@ -42,8 +42,8 @@ I fired up my favorite hex editor, [Hiew][7] (Hacker’s view) and opened the as
 There it is, the assembly in all its glory. Now, where the heck are those two bytes?
 
 After burning up a few brain cells, it occurred to me that a disassembler should be able to tell
-me that. [ For those of you who are not familiar with a disassembler, it is kind of like reflector.
-It converts the machine instructions in the assembly to semi-human readable assembly language. ].
+me that. \[ For those of you who are not familiar with a disassembler, it is kind of like reflector.
+It converts the machine instructions in the assembly to semi-human readable assembly language. \].
 As there is a one-to-one correspondence between assembly instruction and machine code, it is easier
 to map one with the other and get the exact address of the our “check if less than `200`”
 instruction easily.

@@ -43,7 +43,7 @@ Good thing, Reflexil is open source. I went ahead and downloaded the source code
 and started looking around. Reflexil uses [Mono.Cecil][6] for reading and manipulating assemblies.
 Since I had used Cecil in a few hobby projects before, I was able to easily wire up some methods
 into a simple console app that goes through the assemblies and their references and removes the
-strong names and fixes the references. [ *Damn! I’m good! ]*
+strong names and fixes the references. *\[ Damn! I’m good! \]*
 
 I replaced the old assemblies with my new and ‘**improved**’ version, fired up the browser and
 navigated to the website. After waiting for a few seconds, I got the ASP .net [yellow screen of death][7].

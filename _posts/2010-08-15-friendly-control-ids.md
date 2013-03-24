@@ -51,5 +51,5 @@ The rendered HTML would be
 <input type="hidden" id="MyHiddenField" />
 {% endhighlight %}
 
-You can do the same for any control in .net and this should give you fine-grained control
-over your “IDs”.
+You can do the same for any control in ASP .NET and this should give you fine-grained control
+over your client side identifiers.
