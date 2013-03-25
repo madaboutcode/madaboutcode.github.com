@@ -267,6 +267,10 @@ blockquote
     right: 0;
     bottom: 1em;
     padding: 3px;
+    a {
+        color: $heading-color;
+        &:hover { border:none; color: $heading-color;}
+    }
 }
 
 /* ==========================================================================

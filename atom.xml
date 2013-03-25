@@ -13,6 +13,7 @@ layout: nil
    <email>team@pebblekites.com</email>
  </author>
  {% for post in site.posts %}
+ {% unless post.forreview %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="http://madaboutcode.com{{ post.url }}"/>
@@ -24,5 +25,6 @@ layout: nil
     <email>madaboutcode@gmail.com</email>
   </author>
  </entry>
+ {% endunless %}
  {% endfor %}
 </feed>
