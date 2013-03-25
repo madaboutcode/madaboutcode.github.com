@@ -31,4 +31,4 @@ Commenting is handled by [Disqus](http://disqus.com/). Which means, I don't need
 
 Now on to the coolest part of this setup - Jekyll is opensource and free, Github pages is free and Disqus is also free (atleast for my traffic volumes). So other than the $10/year for the domain, hosting this blog is completely free!
 
-You can find the source for this blog at [https://github.com/madaboutcode/madaboutcode.github.com](https://github.com/madaboutcode/madaboutcode.github.com). Take a look and feel free to fork it and use it for your own blog.
+The source code for the blog is available at my [repo](https://github.com/madaboutcode/madaboutcode.github.com). Feel free to fork it and use it for your own blog if you like what you see.
