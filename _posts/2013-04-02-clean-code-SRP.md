@@ -30,7 +30,7 @@ What does that mean? Each class in your code base should have a **single well-de
 
 Does the above class violate SRP? `Credit`, `Debit` and `GetBalance` are all functions of a bank account. What about `CalculateInterest`?  Do we really want to tie the calculation of interest to a bank account? It is convenient that you can call `bankaccount.CalculateInterest()` and get back the interest on that account, but does it make sense?
 
-Interest calculation is a pretty involved process. Most of today's banks have complicated rules and processes based on which they calculate interest for an account. So it makes sense to separate out that interest calculation logic into another class - say `InterestCalculator` *( yeah.. lame name.. )*. Now our code to calculate the interest would look something like this:
+Interest calculation is a pretty involved process. Most of today's banks have complicated rules and processes based on which they calculate interest for an account. So it makes sense to separate out that interest calculation logic into another class - say `InterestCalculator` *( yeah.. lame name.. )*. Now, our code to calculate the interest would look something like this:
 
 {% highlight csharp %}
   var interest = interestCalculator.Calculate(account);
@@ -47,15 +47,15 @@ With the old design, the interest calculation logic is embedded in the bank acco
 
 Photo: [Flickr][2]
 
-If you have the interest calculation logic totally separated out, every time you change the code for interest calculation, your bank account class should mostly remain unaffected. Also you could refactor your code in such a way that each interest scheme is a separate class and the interest calculator class could pick up the right scheme to use based on the account type and various other parameters. Having these small, focused classes makes you code easy to understand and maintain.
+If you have the interest calculation logic totally separated out, every time you change the code for interest calculation, your bank account class should mostly remain unaffected. Also, you could refactor your code in such a way that each interest scheme is a separate class and the interest calculator class could pick up the right scheme to use based on the account type and various other parameters. Having these small, focused classes makes your code easy to understand and maintain.
 
 #I want more!
 
 Even though single responsibility principle is usually used for classes, you could take it even further.
 
-- Each component in your system should have a single responsibility
-- Each class in your component should have a single responsibility
-- Each method in your class should have a single responsibility
+- Each component in your system should have a single responsibility.
+- Each class in your component should have a single responsibility.
+- Each method in your class should have a single responsibility.
 
 I have had good mileage applying the SRP to methods. It gives me small, focused methods that can be combined together to achieve a larger goal. As a side effect, I've also found that this increases code reuse.
 
