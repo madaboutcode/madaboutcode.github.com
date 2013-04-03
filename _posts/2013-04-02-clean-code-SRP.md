@@ -2,7 +2,7 @@
 layout: post
 title: "Clean Code : Single Responsibility Principle"
 category: Clean-Code
-forreview: true
+forreview: false
 filename: "2013-04-02-clean-code-SRP.md"
 ---
 
