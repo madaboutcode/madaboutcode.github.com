@@ -37,7 +37,7 @@ Interest calculation is a pretty involved process. Most of today's banks have co
   account.Credit(interest, "Interest for the period ..blah..to..blah");
 {% endhighlight %}
 
-**Isn't this how interest shows up on your account history?**
+*Isn't this how interest shows up on your account history?*
 
 What advantage does this provide? Just like what happens with most software solutions, the interest calculation, starts off as a simple feature. As time goes, the business starts adding more fancy savings schemes for customers and the interest calculation logic will keep evolving.
 
