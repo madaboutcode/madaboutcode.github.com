@@ -39,7 +39,7 @@ Interest calculation is a pretty involved process. Most of today's banks have co
 
 *Isn't this how interest shows up on your account history?*
 
-What advantage does this provide? Just like what happens with most software solutions, the interest calculation, starts off as a simple feature. As time goes, the business starts adding more fancy savings schemes for customers and the interest calculation logic will keep evolving.
+What advantage does this provide? Just like what happens with most software solutions, interest calculation starts off as a simple feature. As time goes, the business starts adding more fancy savings schemes for customers and the interest calculation logic will keep evolving.
 
 With the old design, the interest calculation logic is embedded in the bank account class and changes to interest calculation could introduce bugs in your bank account logic as well. Moreover, since there is no clean separation of responsibilities, more and more functionality would get added into the bank account class and you end up with one big tangled mess that is difficult to understand and maintain.
 
