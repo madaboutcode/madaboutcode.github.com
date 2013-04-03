@@ -8,7 +8,7 @@ filename: "2013-04-02-clean-code-SRP.md"
 
 I have been writing code for more than a decade now. When I take a look at code that I had written a few years back, I cringe in shame and wonder how I got away with it. In my formative years, I was more focused on solving a technical challenge than caring about how I structured my code to make it happen. The one thing that has helped me focus more on writing more readable code  was the realization that code is written only once, but read **many** times.
 
-With this blog post, I'm kicking-off  as series called "Clean Code" that tries to document my learnings in my struggle to write better, readable, maintainable code.
+With this blog post, I'm kicking-off  a series called "Clean Code" that tries to document my learnings in my struggle to write better, readable, maintainable code.
 
 #Single responsibility principle
 
