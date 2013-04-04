@@ -12,11 +12,13 @@ With this blog post, I'm kicking-off  a series called "Clean Code" that tries to
 
 #Single responsibility principle
 
-Single responsibility principle(SRP) is one of those core principles that will vastly improve the way you structure your code.  [Wikipedia defines SRP][] as:
+Single responsibility principle(SRP) is one of those core principles that will vastly improve the way you structure your code.  It is part of the [SOLID][] principles introduced by Robert C Martin.  
+
+[Wikipedia defines SRP][] as:
 
 > Every class should have a single responsibility, and that responsibility should be entirely encapsulated by the class. All its services should be narrowly aligned with that responsibility.
 
-What does that mean? Each class in your code base should have a **single well-defined purpose** . Take the example of a bank account.
+What does that mean? Each class in your code base should have a **single well-defined purpose** . Let's try to understand that with this example of a bank account class.
 
 {% highlight csharp %}
   class BankAccount
@@ -37,7 +39,7 @@ Interest calculation is a pretty involved process. Most of today's banks have co
   account.Credit(interest, "Interest for the period ..blah..to..blah");
 {% endhighlight %}
 
-*Isn't this how interest shows up on your account history?*
+*(Isn't this how interest shows up in your account history?)*
 
 What advantage does this provide? Just like what happens with most software solutions, interest calculation starts off as a simple feature. As time goes, the business starts adding more fancy savings schemes for customers and the interest calculation logic will keep evolving.
 
@@ -63,6 +65,7 @@ I have had good mileage applying the SRP to methods. It gives me small, focused 
 
 You may not end up with this type of a clean separation of concerns the first time you build a feature. Not to worry. Refactoring is your friend. Get in there, break it apart and revel in the glory of your readable, maintainable code! :)
 
+[SOLID]: http://en.wikipedia.org/wiki/Solid_(object-oriented_design)
 [Wikipedia defines SRP]: http://en.wikipedia.org/wiki/Single_responsibility_principle
 [spaghetti-code]: http://farm3.staticflickr.com/2335/2176839381_50f8cbe72b_z.jpg
 [2]: http://www.flickr.com/photos/ndomer73/2176839381/sizes/z/
