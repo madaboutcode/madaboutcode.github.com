@@ -12,13 +12,11 @@ With this blog post, I'm kicking-off  a series called "Clean Code" that tries to
 
 #Single responsibility principle
 
-Single responsibility principle(SRP) is one of those core principles that will vastly improve the way you structure your code.  It is part of the [SOLID][] principles introduced by Robert C Martin.  
-
-[Wikipedia defines SRP][] as:
+Single responsibility principle(SRP) is one of those core principles that will vastly improve the way you structure your code.  It is part of the [SOLID principles][SOLID] introduced by Robert C Martin.  [Wikipedia defines SRP][] as:
 
 > Every class should have a single responsibility, and that responsibility should be entirely encapsulated by the class. All its services should be narrowly aligned with that responsibility.
 
-What does that mean? Each class in your code base should have a **single well-defined purpose** . Let's try to understand that with this example of a bank account class.
+What does that mean? Each class in your code base should have a **single well-defined purpose** . Let's try to understand it with this bank account class:
 
 {% highlight csharp %}
   class BankAccount
