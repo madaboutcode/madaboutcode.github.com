@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Clean Code : Single Responsibility Principle"
+title: "Clean Code: Single Responsibility Principle"
 category: Clean-Code
 forreview: false
 filename: "2013-04-02-clean-code-SRP.md"
@@ -10,9 +10,9 @@ I have been writing code for more than a decade now. When I take a look at code 
 
 With this blog post, I'm kicking-off  a series called "Clean Code" that tries to document my learnings in my struggle to write better, readable, maintainable code.
 
-#Single responsibility principle
+#Single Responsibility Principle
 
-Single responsibility principle(SRP) is one of those core principles that will vastly improve the way you structure your code.  It is part of the [SOLID principles][SOLID] introduced by Robert C Martin.  [Wikipedia defines SRP][] as:
+Single Responsibility Principle(SRP) is one of those core principles that will vastly improve the way you structure your code.  It is part of the [SOLID principles][SOLID] introduced by Robert C Martin.  [Wikipedia defines SRP][] as:
 
 > Every class should have a single responsibility, and that responsibility should be entirely encapsulated by the class. All its services should be narrowly aligned with that responsibility.
 
