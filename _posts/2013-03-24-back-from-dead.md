@@ -27,7 +27,7 @@ My current workflow for posting a blog post looks like this:
 3. Github has a post commit hook that kicks off Jekyll which regenerates the changed/new html pages. 
 4. The blog post is live! 
 
-Commenting is handled by [Disqus](http://disqus.com/). Which means, I don't need the silly code that I had put in place for spam detection and avoid building all the moderation tools. 
+Commenting is handled by [Disqus](http://disqus.com/). Which means, I don't need the silly code that I had put in place for spam detection. Also, I can avoid building all the moderation tools. 
 
 Now on to the coolest part of this setup - Jekyll is opensource and free, Github pages is free and Disqus is also free (atleast for my traffic volumes). So other than the $10/year for the domain, hosting this blog is completely free!
 
