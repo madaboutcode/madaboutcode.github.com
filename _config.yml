@@ -1,3 +1,4 @@
 permalink: /:year/:month/:title.html
 lsi: false
 pygments: true
+markdown: kramdown
