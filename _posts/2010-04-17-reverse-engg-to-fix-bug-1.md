@@ -68,5 +68,5 @@ answers to all these questions, watch out for the [next part of this blog post][
  [6]: http://www.mono-project.com/Cecil "Mono.Cecil"
  [7]: http://en.wikipedia.org/wiki/Screens_of_death "Read about the yellow screen of death in wikipedia"
  [8]: /2010/03/Decrypting-strings-in-obfuscated-assemblies.html "Dotfuscator obfuscation"
- [9]: http://www.madaboutcode.com/blog/post/2010/7/26/11/Reverse-engineering-to-fix-a-bug-Part-II
+ [9]: /2010/07/reverse-engg-to-fix-bug-2.html
  [10]: /contents/img/2010-04-17-reflexil-dialog.png "Reflexil Dialog"
