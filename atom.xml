@@ -1,5 +1,5 @@
 ---
-layout: nil
+layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
@@ -10,7 +10,6 @@ layout: nil
  <id>http://madaboutcode.com/</id>
  <author>
    <name>Mad about code - Personal blog of Ajeesh Mohan</name>
-   <email>team@pebblekites.com</email>
  </author>
  {% for post in site.posts %}
  {% unless post.forreview %}
@@ -22,7 +21,6 @@ layout: nil
    <content type="html">{{ post.content | replace:"='/","='http://madaboutcode.com/" | replace:'="/','="http://madaboutcode.com/' | xml_escape }}</content>
    <author>
     <name>Ajeesh Mohan</name>
-    <email>madaboutcode@gmail.com</email>
   </author>
  </entry>
  {% endunless %}
