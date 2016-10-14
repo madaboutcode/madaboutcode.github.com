@@ -1,0 +1,38 @@
+#!/bin/bash
+
+if [ "$#" -ne 1 ] ; then
+  echo "Usage: $0 <title>" >&2
+  exit 1
+fi
+
+
+title=`echo "$1" |sed 's/ /-/g'`
+fileName=`date +%Y-%m-%d-$title.md`
+filePath="_posts/$fileName"
+
+if [ -f $filePath ];
+then
+    echo $filePath exists...
+else
+    touch $filePath
+    cat > $filePath <<DELIM
+---
+layout: post
+title: "$1"
+date:  `date "+%Y-%m-%d %H:%M:%S"`
+category:
+filename: "$fileName"
+forreview: true
+banner:
+todo: |
+    - [ ] review
+    - [ ] add reference links
+    - [ ] add banner
+---
+
+DELIM
+
+fi
+
+open -a Byword "$filePath"
+open -a "Marked 2" "$filePath"

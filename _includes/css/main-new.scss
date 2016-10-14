@@ -233,6 +233,10 @@ blockquote
         position: absolute;
         top: 1.46em;
     }
+
+    p > img {
+        width: 100%;
+    }
 }
 
 #comments { margin-top: 6.854em; }
@@ -266,11 +270,19 @@ blockquote
     right: 0;
     bottom: 1em;
     padding: 3px;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    width: 15%;
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    opacity: 0.5;
+
     a {
         color: $heading-color;
         &:hover { border:none; color: $heading-color;}
     }
 }
+
+.todos ul { padding-left: 0; list-style: none;}
 
 /* ==========================================================================
    Media Queries

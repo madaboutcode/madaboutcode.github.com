@@ -1,3 +1,4 @@
-permalink: /:year/:month/:title.html
+permalink: :title.html
 lsi: false
 highlighter: rouge
+markdown: kramdown
