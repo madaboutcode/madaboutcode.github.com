@@ -12,19 +12,19 @@ todo: |
     - [ ] add banner image
 ---
 
-Ever wanted to share a movie or song with a friend, but you did not have one of the those audio splitters lying around? Here is an easy trick that you can do for free on your macOS to output audio to multiple devices at the same time. 
+Ever wanted to share a movie or song with a friend, but you did not have one of those audio splitters lying around? Here is an easy trick that you can do for free on your macOS to output audio to multiple devices at the same time. 
 
 ![Audio Splitter](http://ecx.images-amazon.com/images/I/61gkQR1da6L._SL1500_.jpg)
 
 *You **don't** need one of these - Photo: [Amazon](http://www.amazon.in/Belkin-F8Z274bt-RockStar-Audio-Splitter/dp/B00904WS2K)*
 
-* `⌘+space` to open up spotlight and type in **Audio MIDI Setup.**
+* `⌘+space` to open up spotlight and type in **Audio MIDI Setup**.
 
-* Hit the **+** menu on the bottom left of the window and click on **Create Multi-output device.**
+* Hit the **+** menu on the bottom left of the window and click on **Create Multi-output device**.
 
 ![create multi-output device](http://cdn.madaboutcode.com/i/1-multiple-headphones-mac/step1.jpg)
 
-* Select the audio devices to simultaneously send the output. In my case, these were the two headphones. That need not be the case though. You could, for example, have the audio play through your laptop speakers and your HiFi headphones at the same time. If your audio devices have different sample rates, you will also need to check drift correction.
+* Select the audio devices to simultaneously send the output. In my case, these were the two headphones. That need not be the case though. You could, for example, have the audio play through your laptop speakers and your hi-fi headphones at the same time. If your audio devices have different sample rates, check drift correction.
 
 ![pick devices](http://cdn.madaboutcode.com/i/1-multiple-headphones-mac/step2.jpg)
 
