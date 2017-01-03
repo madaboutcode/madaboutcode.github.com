@@ -5,8 +5,8 @@ category: Life Hacks
 forreview: true
 banner: 
 todo: |
-    - [ ] review
-    - [ ] image resizing
+    - [x] review
+    - [x] image resizing
     - [x] add reference links
     - [x] add photo of audio splitter
     - [ ] add banner image
@@ -14,9 +14,9 @@ todo: |
 
 Ever wanted to share a movie or song with a friend, but you did not have one of those audio splitters lying around? Here is an easy trick that you can do for free on your macOS to output audio to multiple devices at the same time. 
 
-![Audio Splitter](http://ecx.images-amazon.com/images/I/61gkQR1da6L._SL1500_.jpg)
+![Audio Splitter](http://cdn.madaboutcode.com/i/1-multiple-headphones-mac/audio-splitter.jpg)
 
-*You **don't** need one of these - Photo: [Amazon](http://www.amazon.in/Belkin-F8Z274bt-RockStar-Audio-Splitter/dp/B00904WS2K)*
+*You **don't** need one of these - Photo: [Amazon](https://www.amazon.in/gp/product/B00904WS2K/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B00904WS2K&linkCode=as2&tag=macode-21&linkId=fc49ccc5c1f81bd23d29e5b7c812a444)*
 
 * `⌘+space` to open up spotlight and type in **Audio MIDI Setup**.
 
