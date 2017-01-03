@@ -2,7 +2,7 @@
 layout: post
 title: "Play audio through multiple headphones on your macOS"
 category: Life Hacks
-forreview: true
+forreview: false
 banner: 
 todo: |
     - [x] review
