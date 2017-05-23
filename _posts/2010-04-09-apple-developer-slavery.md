@@ -7,6 +7,7 @@ category: Rants
 Apple’s [updated section 3.3.1 of the iPhone developer license agreement][1] as follows:
 
 > 3\.3\.1 — Applications may only use Documented APIs in the manner prescribed by Apple and must not use or call any private APIs. Applications must be originally written in Objective-C, C, C++, or JavaScript as executed by the iPhone OS WebKit engine, and only code written in C, C++, and Objective-C may compile and directly link against the Documented APIs (e.g., Applications that link to Documented APIs through an intermediary translation or compatibility layer or tool are prohibited).
+
 Now from Apple’s perspective, this will make sure that [Flash will never be able to set foot in the iPhone][2]. Also, developers will no longer be able to use tools like [MonoTouch][3]  to create applications that will run on iphone and other platforms like Android with little or no change at all.
 
 I have been thinking hard on how Apple can justify this decision. I am not too business minded and have often been astonished  at the finely thought out  reasons business brains provide for screwing their employees. Let me play Steve Jobs for a bit.
