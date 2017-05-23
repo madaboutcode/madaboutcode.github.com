@@ -10,7 +10,7 @@ I have been writing code for more than a decade now. When I take a look at code 
 
 With this blog post, I'm kicking-off  a series called "Clean Code" that tries to document my learnings in my struggle to write better, readable, maintainable code.
 
-#Single Responsibility Principle
+## Single Responsibility Principle
 
 Single Responsibility Principle(SRP) is one of those core principles that will vastly improve the way you structure your code.  It is part of the [SOLID principles][SOLID] introduced by Robert C Martin.  [Wikipedia defines SRP][] as:
 
@@ -49,7 +49,7 @@ Photo: [Flickr][2]
 
 If you have the interest calculation logic totally separated out, every time you change the code for interest calculation, your bank account class should mostly remain unaffected. Also, you could refactor your code in such a way that each interest scheme is a separate class and the interest calculator class could pick up the right scheme to use based on the account type and various other parameters. Having these small, focused classes makes your code easy to understand and maintain.
 
-#I want more!
+## I want more!
 
 Even though single responsibility principle is usually used for classes, you could take it even further.
 
@@ -59,7 +59,7 @@ Even though single responsibility principle is usually used for classes, you cou
 
 I have had good mileage applying the SRP to methods. It gives me small, focused methods that can be combined together to achieve a larger goal. As a side effect, I've also found that this increases code reuse.
 
-#Don't get it right the first time?
+## Don't get it right the first time?
 
 You may not end up with this type of a clean separation of concerns the first time you build a feature. Not to worry. Refactoring is your friend. Get in there, break it apart and revel in the glory of your readable, maintainable code! :)
 
