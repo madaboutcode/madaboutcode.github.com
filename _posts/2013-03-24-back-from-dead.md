@@ -5,9 +5,6 @@ category: General
 forreview: false
 filename: "2013-03-24-back-from-dead.md"
 ---
-![Back from the dead](http://farm3.staticflickr.com/2735/5807179168_41db33897d_z.jpg)
-
-*Photo: [Flickr](http://www.flickr.com/photos/natura_pagana/5807179168/sizes/z/in/photostream/)*
 
 The last post on this blog was from the summer of '10. Since then, things got a little hectic and I was not able to dedicate much time to this blog. Things are little better now and after a lot of nagging from a lot of people, I've decided to revive this blog. 
 

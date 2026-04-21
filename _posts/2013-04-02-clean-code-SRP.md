@@ -43,10 +43,6 @@ What advantage does this provide? Just like what happens with most software solu
 
 With the old design, the interest calculation logic is embedded in the bank account class and changes to interest calculation could introduce bugs in your bank account logic as well. Moreover, since there is no clean separation of responsibilities, more and more functionality would get added into the bank account class and you end up with one big tangled mess that is difficult to understand and maintain.
 
-![Spaghetti Code][spaghetti-code]
-
-Photo: [Flickr][2]
-
 If you have the interest calculation logic totally separated out, every time you change the code for interest calculation, your bank account class should mostly remain unaffected. Also, you could refactor your code in such a way that each interest scheme is a separate class and the interest calculator class could pick up the right scheme to use based on the account type and various other parameters. Having these small, focused classes makes your code easy to understand and maintain.
 
 ## I want more!
@@ -63,7 +59,5 @@ I have had good mileage applying the SRP to methods. It gives me small, focused 
 
 You may not end up with this type of a clean separation of concerns the first time you build a feature. Not to worry. Refactoring is your friend. Get in there, break it apart and revel in the glory of your readable, maintainable code! :)
 
-[SOLID]: http://en.wikipedia.org/wiki/Solid_(object-oriented_design)
-[Wikipedia defines SRP]: http://en.wikipedia.org/wiki/Single_responsibility_principle
-[spaghetti-code]: http://farm3.staticflickr.com/2335/2176839381_50f8cbe72b_z.jpg
-[2]: http://www.flickr.com/photos/ndomer73/2176839381/sizes/z/
+[SOLID]: https://en.wikipedia.org/wiki/Solid_(object-oriented_design)
+[Wikipedia defines SRP]: https://en.wikipedia.org/wiki/Single_responsibility_principle
