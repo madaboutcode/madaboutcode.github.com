@@ -287,11 +287,112 @@ blockquote
 .todos ul { padding-left: 0; list-style: none;}
 
 /* ==========================================================================
-   Media Queries
-   ========================================================================== */
+    Media Queries
+    ========================================================================== */
+
+@media only screen and (max-width: 35em) {
+    #page-header, #page-content, #page-footer {
+        width: 92%;
+        padding: 0;
+    }
+
+    #page-header {
+        padding: 1em 0;
+        text-align: center;
+        h1 {
+            float: none;
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 0.15em;
+        }
+    }
+
+    #subtext {
+        float: none;
+        text-align: center;
+        display: block;
+        clear: none;
+        margin-top: 0;
+        font-size: 0.72em;
+    }
+
+    #primary-nav {
+        float: none;
+        text-align: center;
+        margin-top: 0.4em;
+        li {
+            display: inline;
+            margin: 0 0.6em;
+        }
+    }
+
+    .article-summary {
+        padding: 0.8em 0;
+        border-bottom: 1px dotted #d0d0d0;
+        h2 {
+            float: none;
+            display: block;
+            width: auto;
+            margin: 0 0 0.15em;
+            font-size: 0.7em;
+            color: #999;
+        }
+        h1 {
+            margin: 0;
+            font-size: 1.35em;
+            line-height: 1.2em;
+        }
+    }
+
+    #article-body {
+        header {
+            display: flex;
+            flex-direction: column;
+            h1 {
+                font-size: 1.75em;
+                order: 2;
+            }
+        }
+        aside {
+            position: static;
+            display: block;
+            margin: 0 0 0.5em;
+            padding: 0;
+            font-size: 0.8em;
+            color: #999;
+            order: 1;
+        }
+    }
+
+    #share, #copyright {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    pre {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    code {
+        font-size: 0.55em;
+    }
+
+    #review-tools {
+        display: none;
+    }
+}
 
 @media only screen and (min-width: 35em) {
-
+    #page-header, #page-content, #page-footer {
+        width: 90%;
+        max-width: 47.845em - 6.854em;
+    }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
