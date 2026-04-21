@@ -2,3 +2,16 @@ permalink: :title.html
 lsi: false
 highlighter: rouge
 markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - startserver.sh
+  - startserver.bat
+  - startsass.sh
+  - startsass.bat
+  - CLAUDE.md
+  - README
+  - .envrc
+  - .jekyll-cache
+  - vendor
